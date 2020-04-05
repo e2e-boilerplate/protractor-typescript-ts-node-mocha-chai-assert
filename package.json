@@ -1,7 +1,7 @@
 {
   "author": "Girma Nigusse <xgirma@gmail.com>",
   "bugs": {
-    "url": "https://github.com/e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect/issues"
+    "url": "https://github.com/e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-assert/issues"
   },
   "dependencies": {
     "chai": "4.2.0",
@@ -10,7 +10,7 @@
     "ts-node": "8.8.2",
     "typescript": "3.8.3"
   },
-  "description": "Protractor end-to-end test automation boilerplate. Using TypeScript, ts-node, Mocha, Chai and Expect.",
+  "description": "Protractor end-to-end test automation boilerplate. Using TypeScript, ts-node, Mocha, Chai and Assert.",
   "devDependencies": {
     "@types/chai": "4.2.11",
     "@types/mocha": "7.0.2",
@@ -22,19 +22,19 @@
     "tslint-config-prettier": "1.18.0",
     "tslint-plugin-prettier": "2.3.0"
   },
-  "homepage": "https://github.com/e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect#readme",
+  "homepage": "https://github.com/e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-assert#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged --allow-empty"
     }
   },
   "keywords": [
+    "assert",
     "boilerplate",
     "chai",
     "e2e",
     "e2e tests",
     "example",
-    "expect",
     "integration test",
     "mocha",
     "protractor",
@@ -47,10 +47,10 @@
       "prettier --write"
     ]
   },
-  "name": "protractor-typescript-ts-node-mocha-chai-expect",
+  "name": "protractor-typescript-ts-node-mocha-chai-assert",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-expect.git"
+    "url": "git+https://github.com/e2e-boilerplate/protractor-typescript-ts-node-mocha-chai-assert.git"
   },
   "scripts": {
     "lint": "npx tslint -c tslint.json './spec/*.ts'",
